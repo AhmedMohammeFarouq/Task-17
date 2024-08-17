@@ -1,0 +1,75 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+    gap: 20px;
+}
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.container .doctor {
+    margin-top: 50px;
+    width: 270px;
+    background-color: #f0e9e9;
+    box-shadow: 1px 1px 10px ;
+}
+.container img {
+    width: 270px;
+    height: 270px;
+    box-shadow: 2px;
+}
+h1 {
+    margin-top: 150px;
+    width: 600px;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+
+p ,
+h3{
+    margin-left: 10px;
+} 
+h3 {
+    font-size: 20px;
+}
+p {
+    color: #999;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
